@@ -1026,7 +1026,11 @@ body{
 
 
     .footul{
+        height: 80%;
+        display: flex;
         padding: 1rem;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
 
@@ -1037,7 +1041,6 @@ body{
     
     .footul li{
         list-style: none;
-        margin: 1rem;
     }
     
     .footul li a {
