@@ -840,13 +840,21 @@ body{
         padding: 15px;
     
     }
+    
+
     .btn{
+        background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
         font-size: 1.5rem;
         text-decoration: none;
         color: white;
         padding: 15px;
+        transition: 0.5s;
     }
     
+    .btn:hover{
+        font-size: 1.7rem;
+    }
+
     .seccion1 img{
         width: 100%;
         border-radius: 15px 15px 0px 0px;
@@ -983,7 +991,6 @@ body{
         padding: 10px;
     }
 
-    .btn {background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)}
     
     .btn {
        margin: 10px;
